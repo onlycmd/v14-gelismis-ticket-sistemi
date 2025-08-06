@@ -1,0 +1,23 @@
+{
+  "name": "ticket-bot",
+  "version": "1.0.0",
+  "description": "Gelişmiş Discord Ticket Sistemi",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["discord", "bot", "ticket", "support"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mongoose": "^8.0.3",
+    "dotenv": "^16.3.1",
+    "moment": "^2.29.4",
+    "canvas": "^2.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+} 
